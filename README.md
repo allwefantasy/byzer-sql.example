@@ -11,4 +11,19 @@ check here: https://docs.byzer.org/#/byzer-lang/zh-cn/byzer-llm/deploy
 
 ## Usage
 
-Register/Login to the Byzer-Notebook, then import the notebooks from the notebooks folder.
+### Prepare Example Data
+
+Upload the following data to the Byzer-Notebook.
+
+```
+data/mysql_vega_datasets/part-00000-466cd646-08d8-4e2c-97ae-44b663b831da-c000.csv
+data/upload/file_vega_datasets/part-00000-e9200783-5a68-4ebb-ba7b-614506f89783-c000.csv
+```
+
+### Import Notebooks
+
+Import the notebooks to Byzer-Notebook from the notebooks folder.
+
+### Run the Examples
+
+You can run the examples in the notebooks.
