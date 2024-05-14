@@ -1,0 +1,804 @@
+ID,Entity,Year,Deaths
+0,All natural disasters,1900,1267360
+1,All natural disasters,1901,200018
+2,All natural disasters,1902,46037
+3,All natural disasters,1903,6506
+4,All natural disasters,1905,22758
+5,All natural disasters,1906,42970
+6,All natural disasters,1907,1325641
+7,All natural disasters,1908,75033
+8,All natural disasters,1909,1511524
+9,All natural disasters,1910,148233
+10,All natural disasters,1911,102408
+11,All natural disasters,1912,52093
+12,All natural disasters,1913,882
+13,All natural disasters,1914,289
+14,All natural disasters,1915,32167
+15,All natural disasters,1916,300
+16,All natural disasters,1917,2523507
+17,All natural disasters,1918,461113
+18,All natural disasters,1919,5500
+19,All natural disasters,1920,3204224
+20,All natural disasters,1921,1200000
+21,All natural disasters,1922,101243
+22,All natural disasters,1923,255701
+23,All natural disasters,1924,303009
+24,All natural disasters,1925,5832
+25,All natural disasters,1926,427852
+26,All natural disasters,1927,215160
+27,All natural disasters,1928,3004895
+28,All natural disasters,1929,8377
+29,All natural disasters,1930,10572
+30,All natural disasters,1931,3706227
+31,All natural disasters,1932,73296
+32,All natural disasters,1933,34296
+33,All natural disasters,1934,21087
+34,All natural disasters,1935,272817
+35,All natural disasters,1936,5301
+36,All natural disasters,1937,12025
+37,All natural disasters,1938,2225
+38,All natural disasters,1939,563178
+39,All natural disasters,1940,23023
+40,All natural disasters,1941,10195
+41,All natural disasters,1942,1608235
+42,All natural disasters,1943,1910322
+43,All natural disasters,1944,15906
+44,All natural disasters,1945,10376
+45,All natural disasters,1946,35490
+46,All natural disasters,1947,17647
+47,All natural disasters,1948,120131
+48,All natural disasters,1949,120370
+49,All natural disasters,1950,6728
+50,All natural disasters,1951,15042
+51,All natural disasters,1952,8965
+52,All natural disasters,1953,12956
+53,All natural disasters,1954,41872
+54,All natural disasters,1955,6026
+55,All natural disasters,1956,7737
+56,All natural disasters,1957,10603
+57,All natural disasters,1958,3950
+58,All natural disasters,1959,2013242
+59,All natural disasters,1960,39188
+60,All natural disasters,1961,17341
+61,All natural disasters,1962,17370
+62,All natural disasters,1963,37746
+63,All natural disasters,1964,12892
+64,All natural disasters,1965,1565517
+65,All natural disasters,1966,17181
+66,All natural disasters,1967,10103
+67,All natural disasters,1968,21461
+68,All natural disasters,1969,11687
+69,All natural disasters,1970,387507
+70,All natural disasters,1971,18086
+71,All natural disasters,1972,20045
+72,All natural disasters,1973,110555
+73,All natural disasters,1974,87504
+74,All natural disasters,1975,14858
+75,All natural disasters,1976,280469
+76,All natural disasters,1977,22406
+77,All natural disasters,1978,38096
+78,All natural disasters,1979,7341
+79,All natural disasters,1980,23089
+80,All natural disasters,1981,119697
+81,All natural disasters,1982,13973
+82,All natural disasters,1983,461561
+83,All natural disasters,1984,16273
+84,All natural disasters,1985,60232
+85,All natural disasters,1986,10349
+86,All natural disasters,1987,21533
+87,All natural disasters,1988,57464
+88,All natural disasters,1989,12611
+89,All natural disasters,1990,53141
+90,All natural disasters,1991,189707
+91,All natural disasters,1992,18911
+92,All natural disasters,1993,21821
+93,All natural disasters,1994,15590
+94,All natural disasters,1995,27166
+95,All natural disasters,1996,31595
+96,All natural disasters,1997,30124
+97,All natural disasters,1998,62672
+98,All natural disasters,1999,76886
+99,All natural disasters,2000,16667
+100,All natural disasters,2001,39493
+101,All natural disasters,2002,21342
+102,All natural disasters,2003,113558
+103,All natural disasters,2004,244772
+104,All natural disasters,2005,93566
+105,All natural disasters,2006,29893
+106,All natural disasters,2007,22422
+107,All natural disasters,2008,242236
+108,All natural disasters,2009,16037
+109,All natural disasters,2010,329900
+110,All natural disasters,2011,34143
+111,All natural disasters,2012,11619
+112,All natural disasters,2013,22225
+113,All natural disasters,2014,20882
+114,All natural disasters,2015,23893
+115,All natural disasters,2016,10201
+116,All natural disasters,2017,2087
+117,Drought,1900,1261000
+118,Drought,1910,85000
+119,Drought,1920,524000
+120,Drought,1921,1200000
+121,Drought,1928,3000000
+122,Drought,1940,20000
+123,Drought,1942,1500000
+124,Drought,1943,1900000
+125,Drought,1946,30000
+126,Drought,1964,50
+127,Drought,1965,1502000
+128,Drought,1966,8000
+129,Drought,1967,600
+130,Drought,1973,100000
+131,Drought,1974,19000
+132,Drought,1978,63
+133,Drought,1979,18
+134,Drought,1981,103000
+135,Drought,1982,280
+136,Drought,1983,450520
+137,Drought,1984,230
+138,Drought,1986,84
+139,Drought,1987,1317
+140,Drought,1988,1600
+141,Drought,1989,237
+142,Drought,1991,2000
+143,Drought,1997,732
+144,Drought,1998,20
+145,Drought,1999,361
+146,Drought,2000,80
+147,Drought,2001,99
+148,Drought,2002,588
+149,Drought,2003,9
+150,Drought,2004,80
+151,Drought,2005,149
+152,Drought,2006,134
+153,Drought,2008,8
+154,Drought,2010,20000
+155,Drought,2015,35
+156,Earthquake,1901,18
+157,Earthquake,1902,6747
+158,Earthquake,1903,6000
+159,Earthquake,1905,22500
+160,Earthquake,1906,31966
+161,Earthquake,1907,25641
+162,Earthquake,1908,75000
+163,Earthquake,1909,5146
+164,Earthquake,1910,1762
+165,Earthquake,1912,923
+166,Earthquake,1913,150
+167,Earthquake,1914,149
+168,Earthquake,1915,29986
+169,Earthquake,1917,19450
+170,Earthquake,1918,10379
+171,Earthquake,1920,180000
+172,Earthquake,1922,1100
+173,Earthquake,1923,152362
+174,Earthquake,1924,767
+175,Earthquake,1925,5013
+176,Earthquake,1926,12
+177,Earthquake,1927,206142
+178,Earthquake,1928,635
+179,Earthquake,1929,3317
+180,Earthquake,1930,5081
+181,Earthquake,1931,1537
+182,Earthquake,1932,70006
+183,Earthquake,1933,16180
+184,Earthquake,1934,15496
+185,Earthquake,1935,66110
+186,Earthquake,1936,26
+187,Earthquake,1938,166
+188,Earthquake,1939,63094
+189,Earthquake,1940,1275
+190,Earthquake,1941,189
+191,Earthquake,1942,7235
+192,Earthquake,1943,4332
+193,Earthquake,1944,14984
+194,Earthquake,1945,5961
+195,Earthquake,1946,5153
+196,Earthquake,1947,633
+197,Earthquake,1948,115618
+198,Earthquake,1949,6486
+199,Earthquake,1950,1833
+200,Earthquake,1951,1554
+201,Earthquake,1952,2432
+202,Earthquake,1953,2717
+203,Earthquake,1954,3344
+204,Earthquake,1955,959
+205,Earthquake,1956,763
+206,Earthquake,1957,6993
+207,Earthquake,1958,227
+208,Earthquake,1959,103
+209,Earthquake,1960,19395
+210,Earthquake,1961,60
+211,Earthquake,1962,12209
+212,Earthquake,1963,1700
+213,Earthquake,1964,335
+214,Earthquake,1965,683
+215,Earthquake,1966,2752
+216,Earthquake,1967,1013
+217,Earthquake,1968,10858
+218,Earthquake,1969,3353
+219,Earthquake,1970,78599
+220,Earthquake,1971,1107
+221,Earthquake,1972,15170
+222,Earthquake,1973,552
+223,Earthquake,1974,24808
+224,Earthquake,1975,12632
+225,Earthquake,1976,276994
+226,Earthquake,1977,3098
+227,Earthquake,1978,25162
+228,Earthquake,1979,2100
+229,Earthquake,1980,7730
+230,Earthquake,1981,4206
+231,Earthquake,1982,2120
+232,Earthquake,1983,2148
+233,Earthquake,1984,57
+234,Earthquake,1985,9853
+235,Earthquake,1986,1181
+236,Earthquake,1987,5160
+237,Earthquake,1988,27049
+238,Earthquake,1989,650
+239,Earthquake,1990,42853
+240,Earthquake,1991,2454
+241,Earthquake,1992,4033
+242,Earthquake,1993,10088
+243,Earthquake,1994,1242
+244,Earthquake,1995,7739
+245,Earthquake,1996,576
+246,Earthquake,1997,3159
+247,Earthquake,1998,9573
+248,Earthquake,1999,21869
+249,Earthquake,2000,217
+250,Earthquake,2001,21348
+251,Earthquake,2002,1639
+252,Earthquake,2003,29617
+253,Earthquake,2004,227290
+254,Earthquake,2005,76241
+255,Earthquake,2006,6692
+256,Earthquake,2007,780
+257,Earthquake,2008,87918
+258,Earthquake,2009,1893
+259,Earthquake,2010,226733
+260,Earthquake,2011,20946
+261,Earthquake,2012,711
+262,Earthquake,2013,1120
+263,Earthquake,2014,774
+264,Earthquake,2015,9550
+265,Earthquake,2016,1311
+266,Earthquake,2017,49
+267,Epidemic,1900,30
+268,Epidemic,1901,200000
+269,Epidemic,1907,1300000
+270,Epidemic,1909,1500040
+271,Epidemic,1910,60000
+272,Epidemic,1917,2500000
+273,Epidemic,1918,449700
+274,Epidemic,1920,2500000
+275,Epidemic,1923,100000
+276,Epidemic,1924,300000
+277,Epidemic,1926,423000
+278,Epidemic,1932,16
+279,Epidemic,1935,2000
+280,Epidemic,1940,1500
+281,Epidemic,1947,10276
+282,Epidemic,1953,481
+283,Epidemic,1963,1000
+284,Epidemic,1964,617
+285,Epidemic,1965,816
+286,Epidemic,1966,200
+287,Epidemic,1967,3137
+288,Epidemic,1968,177
+289,Epidemic,1969,3520
+290,Epidemic,1970,939
+291,Epidemic,1971,2313
+292,Epidemic,1972,35
+293,Epidemic,1974,1500
+294,Epidemic,1976,396
+295,Epidemic,1977,1184
+296,Epidemic,1978,3060
+297,Epidemic,1979,486
+298,Epidemic,1980,1685
+299,Epidemic,1981,2497
+300,Epidemic,1982,2912
+301,Epidemic,1983,1219
+302,Epidemic,1984,7016
+303,Epidemic,1985,5854
+304,Epidemic,1986,3046
+305,Epidemic,1987,2592
+306,Epidemic,1988,15216
+307,Epidemic,1989,1870
+308,Epidemic,1990,2207
+309,Epidemic,1991,30682
+310,Epidemic,1992,6675
+311,Epidemic,1993,651
+312,Epidemic,1994,2505
+313,Epidemic,1995,4428
+314,Epidemic,1996,16887
+315,Epidemic,1997,10674
+316,Epidemic,1998,12931
+317,Epidemic,1999,6293
+318,Epidemic,2000,6980
+319,Epidemic,2001,8515
+320,Epidemic,2002,8762
+321,Epidemic,2003,3522
+322,Epidemic,2004,3245
+323,Epidemic,2005,3909
+324,Epidemic,2006,6402
+325,Epidemic,2007,5484
+326,Epidemic,2008,6904
+327,Epidemic,2009,4895
+328,Epidemic,2010,12143
+329,Epidemic,2011,3174
+330,Epidemic,2012,1887
+331,Epidemic,2013,529
+332,Epidemic,2014,12911
+333,Epidemic,2015,1032
+334,Epidemic,2016,1520
+335,Epidemic,2017,386
+336,Extreme temperature,1936,1693
+337,Extreme temperature,1951,69
+338,Extreme temperature,1953,669
+339,Extreme temperature,1955,107
+340,Extreme temperature,1958,651
+341,Extreme temperature,1961,400
+342,Extreme temperature,1962,50
+343,Extreme temperature,1963,162
+344,Extreme temperature,1965,100
+345,Extreme temperature,1966,262
+346,Extreme temperature,1968,153
+347,Extreme temperature,1971,400
+348,Extreme temperature,1972,110
+349,Extreme temperature,1973,283
+350,Extreme temperature,1975,140
+351,Extreme temperature,1978,150
+352,Extreme temperature,1979,470
+353,Extreme temperature,1980,1389
+354,Extreme temperature,1981,300
+355,Extreme temperature,1982,400
+356,Extreme temperature,1983,205
+357,Extreme temperature,1984,290
+358,Extreme temperature,1985,456
+359,Extreme temperature,1986,50
+360,Extreme temperature,1987,1220
+361,Extreme temperature,1988,644
+362,Extreme temperature,1989,381
+363,Extreme temperature,1990,979
+364,Extreme temperature,1991,835
+365,Extreme temperature,1992,388
+366,Extreme temperature,1993,106
+367,Extreme temperature,1994,341
+368,Extreme temperature,1995,1730
+369,Extreme temperature,1996,300
+370,Extreme temperature,1997,604
+371,Extreme temperature,1998,3269
+372,Extreme temperature,1999,771
+373,Extreme temperature,2000,941
+374,Extreme temperature,2001,1787
+375,Extreme temperature,2002,3369
+376,Extreme temperature,2003,74698
+377,Extreme temperature,2004,255
+378,Extreme temperature,2005,1550
+379,Extreme temperature,2006,4826
+380,Extreme temperature,2007,1086
+381,Extreme temperature,2008,1688
+382,Extreme temperature,2009,1386
+383,Extreme temperature,2010,57188
+384,Extreme temperature,2011,435
+385,Extreme temperature,2012,1834
+386,Extreme temperature,2013,1821
+387,Extreme temperature,2014,1168
+388,Extreme temperature,2015,7425
+389,Extreme temperature,2016,490
+390,Extreme temperature,2017,130
+391,Extreme weather,1900,6000
+392,Extreme weather,1902,600
+393,Extreme weather,1903,163
+394,Extreme weather,1905,240
+395,Extreme weather,1906,10298
+396,Extreme weather,1909,713
+397,Extreme weather,1910,30
+398,Extreme weather,1911,1000
+399,Extreme weather,1912,51170
+400,Extreme weather,1913,732
+401,Extreme weather,1915,2125
+402,Extreme weather,1916,300
+403,Extreme weather,1917,4057
+404,Extreme weather,1918,34
+405,Extreme weather,1919,500
+406,Extreme weather,1920,224
+407,Extreme weather,1922,100000
+408,Extreme weather,1923,3139
+409,Extreme weather,1924,2242
+410,Extreme weather,1925,819
+411,Extreme weather,1926,3568
+412,Extreme weather,1927,5772
+413,Extreme weather,1928,4224
+414,Extreme weather,1930,4082
+415,Extreme weather,1931,3200
+416,Extreme weather,1932,3244
+417,Extreme weather,1933,63
+418,Extreme weather,1934,5091
+419,Extreme weather,1935,62707
+420,Extreme weather,1936,3309
+421,Extreme weather,1937,11231
+422,Extreme weather,1938,905
+423,Extreme weather,1939,3
+424,Extreme weather,1940,123
+425,Extreme weather,1941,5006
+426,Extreme weather,1942,101000
+427,Extreme weather,1943,5000
+428,Extreme weather,1944,726
+429,Extreme weather,1945,4415
+430,Extreme weather,1946,337
+431,Extreme weather,1947,4738
+432,Extreme weather,1948,2971
+433,Extreme weather,1949,2804
+434,Extreme weather,1950,873
+435,Extreme weather,1951,2861
+436,Extreme weather,1952,6277
+437,Extreme weather,1953,1814
+438,Extreme weather,1954,2969
+439,Extreme weather,1955,3895
+440,Extreme weather,1956,3114
+441,Extreme weather,1957,1139
+442,Extreme weather,1958,2620
+443,Extreme weather,1959,9695
+444,Extreme weather,1960,9164
+445,Extreme weather,1961,12852
+446,Extreme weather,1962,1860
+447,Extreme weather,1963,29965
+448,Extreme weather,1964,10655
+449,Extreme weather,1965,59932
+450,Extreme weather,1966,2327
+451,Extreme weather,1967,2255
+452,Extreme weather,1968,1669
+453,Extreme weather,1969,3252
+454,Extreme weather,1970,304495
+455,Extreme weather,1971,10811
+456,Extreme weather,1972,1427
+457,Extreme weather,1973,4344
+458,Extreme weather,1974,11861
+459,Extreme weather,1975,1041
+460,Extreme weather,1976,1763
+461,Extreme weather,1977,15298
+462,Extreme weather,1978,3676
+463,Extreme weather,1979,2623
+464,Extreme weather,1980,1379
+465,Extreme weather,1981,3790
+466,Extreme weather,1982,2782
+467,Extreme weather,1983,3656
+468,Extreme weather,1984,5468
+469,Extreme weather,1985,17165
+470,Extreme weather,1986,1939
+471,Extreme weather,1987,2900
+472,Extreme weather,1988,3335
+473,Extreme weather,1989,4256
+474,Extreme weather,1990,4604
+475,Extreme weather,1991,146297
+476,Extreme weather,1992,1342
+477,Extreme weather,1993,2965
+478,Extreme weather,1994,4239
+479,Extreme weather,1995,3763
+480,Extreme weather,1996,4581
+481,Extreme weather,1997,6150
+482,Extreme weather,1998,24935
+483,Extreme weather,1999,12270
+484,Extreme weather,2000,1354
+485,Extreme weather,2001,1911
+486,Extreme weather,2002,1382
+487,Extreme weather,2003,1049
+488,Extreme weather,2004,6547
+489,Extreme weather,2005,5251
+490,Extreme weather,2006,4329
+491,Extreme weather,2007,6035
+492,Extreme weather,2008,140985
+493,Extreme weather,2009,3287
+494,Extreme weather,2010,1564
+495,Extreme weather,2011,3103
+496,Extreme weather,2012,3105
+497,Extreme weather,2013,8603
+498,Extreme weather,2014,1424
+499,Extreme weather,2015,1270
+500,Extreme weather,2016,1760
+501,Extreme weather,2017,394
+502,Flood,1900,300
+503,Flood,1903,250
+504,Flood,1906,6
+505,Flood,1909,72
+506,Flood,1910,1379
+507,Flood,1911,100000
+508,Flood,1926,1000
+509,Flood,1927,3246
+510,Flood,1928,36
+511,Flood,1931,3700000
+512,Flood,1933,18053
+513,Flood,1935,142000
+514,Flood,1936,200
+515,Flood,1937,248
+516,Flood,1938,954
+517,Flood,1939,500010
+518,Flood,1940,125
+519,Flood,1943,990
+520,Flood,1947,2000
+521,Flood,1948,917
+522,Flood,1949,97000
+523,Flood,1950,3808
+524,Flood,1951,5666
+525,Flood,1952,199
+526,Flood,1953,7125
+527,Flood,1954,34436
+528,Flood,1955,584
+529,Flood,1956,3613
+530,Flood,1957,2471
+531,Flood,1958,400
+532,Flood,1959,2003396
+533,Flood,1960,10577
+534,Flood,1961,3863
+535,Flood,1962,1180
+536,Flood,1963,1031
+537,Flood,1964,1123
+538,Flood,1965,1401
+539,Flood,1966,1923
+540,Flood,1967,2446
+541,Flood,1968,7306
+542,Flood,1969,1544
+543,Flood,1970,3246
+544,Flood,1971,2404
+545,Flood,1972,2548
+546,Flood,1973,1835
+547,Flood,1974,29431
+548,Flood,1975,848
+549,Flood,1976,960
+550,Flood,1977,2568
+551,Flood,1978,5897
+552,Flood,1979,1038
+553,Flood,1980,10466
+554,Flood,1981,5283
+555,Flood,1982,4648
+556,Flood,1983,2082
+557,Flood,1984,2930
+558,Flood,1985,4376
+559,Flood,1986,1782
+560,Flood,1987,6766
+561,Flood,1988,8504
+562,Flood,1989,4716
+563,Flood,1990,2251
+564,Flood,1991,5852
+565,Flood,1992,5315
+566,Flood,1993,6150
+567,Flood,1994,6771
+568,Flood,1995,7956
+569,Flood,1996,8047
+570,Flood,1997,7685
+571,Flood,1998,10653
+572,Flood,1999,34807
+573,Flood,2000,6025
+574,Flood,2001,5014
+575,Flood,2002,4236
+576,Flood,2003,3910
+577,Flood,2004,6982
+578,Flood,2005,5754
+579,Flood,2006,5843
+580,Flood,2007,8607
+581,Flood,2008,4007
+582,Flood,2009,3627
+583,Flood,2010,8356
+584,Flood,2011,6163
+585,Flood,2012,3544
+586,Flood,2013,9836
+587,Flood,2014,3532
+588,Flood,2015,3495
+589,Flood,2016,4720
+590,Flood,2017,648
+591,Landslide,1909,53
+592,Landslide,1922,100
+593,Landslide,1923,200
+594,Landslide,1926,128
+595,Landslide,1930,40
+596,Landslide,1931,190
+597,Landslide,1932,30
+598,Landslide,1934,500
+599,Landslide,1936,73
+600,Landslide,1938,200
+601,Landslide,1941,5000
+602,Landslide,1948,525
+603,Landslide,1949,12000
+604,Landslide,1950,130
+605,Landslide,1951,92
+606,Landslide,1952,28
+607,Landslide,1954,1086
+608,Landslide,1955,478
+609,Landslide,1956,236
+610,Landslide,1958,52
+611,Landslide,1959,48
+612,Landslide,1960,52
+613,Landslide,1961,166
+614,Landslide,1962,71
+615,Landslide,1963,2033
+616,Landslide,1964,108
+617,Landslide,1965,204
+618,Landslide,1966,604
+619,Landslide,1967,590
+620,Landslide,1968,1196
+621,Landslide,1969,18
+622,Landslide,1970,186
+623,Landslide,1971,1020
+624,Landslide,1972,755
+625,Landslide,1973,3541
+626,Landslide,1974,904
+627,Landslide,1975,195
+628,Landslide,1976,315
+629,Landslide,1977,40
+630,Landslide,1978,86
+631,Landslide,1979,338
+632,Landslide,1980,300
+633,Landslide,1981,421
+634,Landslide,1982,640
+635,Landslide,1983,1159
+636,Landslide,1984,228
+637,Landslide,1985,377
+638,Landslide,1986,501
+639,Landslide,1987,1204
+640,Landslide,1988,952
+641,Landslide,1989,445
+642,Landslide,1990,98
+643,Landslide,1991,728
+644,Landslide,1992,712
+645,Landslide,1993,1418
+646,Landslide,1994,307
+647,Landslide,1995,1521
+648,Landslide,1996,1155
+649,Landslide,1997,801
+650,Landslide,1998,1141
+651,Landslide,1999,445
+652,Landslide,2000,1012
+653,Landslide,2001,786
+654,Landslide,2002,1100
+655,Landslide,2003,706
+656,Landslide,2004,313
+657,Landslide,2005,664
+658,Landslide,2006,1638
+659,Landslide,2007,271
+660,Landslide,2008,504
+661,Landslide,2009,723
+662,Landslide,2010,3427
+663,Landslide,2011,309
+664,Landslide,2012,501
+665,Landslide,2013,235
+666,Landslide,2014,943
+667,Landslide,2015,1006
+668,Landslide,2016,361
+669,Landslide,2017,405
+670,Mass movement (dry),1903,76
+671,Mass movement (dry),1905,18
+672,Mass movement (dry),1908,33
+673,Mass movement (dry),1910,62
+674,Mass movement (dry),1915,56
+675,Mass movement (dry),1937,40
+676,Mass movement (dry),1955,3
+677,Mass movement (dry),1962,2000
+678,Mass movement (dry),1963,150
+679,Mass movement (dry),1965,26
+680,Mass movement (dry),1970,42
+681,Mass movement (dry),1971,31
+682,Mass movement (dry),1980,50
+683,Mass movement (dry),1982,59
+684,Mass movement (dry),1983,466
+685,Mass movement (dry),1985,300
+686,Mass movement (dry),1987,183
+687,Mass movement (dry),1988,157
+688,Mass movement (dry),1989,55
+689,Mass movement (dry),1990,116
+690,Mass movement (dry),1991,86
+691,Mass movement (dry),1992,323
+692,Mass movement (dry),1993,341
+693,Mass movement (dry),2000,11
+694,Mass movement (dry),2002,60
+695,Mass movement (dry),2004,44
+696,Mass movement (dry),2006,11
+697,Mass movement (dry),2008,120
+698,Mass movement (dry),2009,36
+699,Mass movement (dry),2012,16
+700,Mass movement (dry),2013,46
+701,Mass movement (dry),2015,13
+702,Volcanic activity,1900,30
+703,Volcanic activity,1902,38690
+704,Volcanic activity,1903,17
+705,Volcanic activity,1906,700
+706,Volcanic activity,1909,5500
+707,Volcanic activity,1911,1335
+708,Volcanic activity,1914,140
+709,Volcanic activity,1919,5000
+710,Volcanic activity,1926,144
+711,Volcanic activity,1929,5000
+712,Volcanic activity,1930,1369
+713,Volcanic activity,1931,1300
+714,Volcanic activity,1937,506
+715,Volcanic activity,1944,26
+716,Volcanic activity,1948,100
+717,Volcanic activity,1949,2000
+718,Volcanic activity,1950,84
+719,Volcanic activity,1951,4800
+720,Volcanic activity,1952,29
+721,Volcanic activity,1953,150
+722,Volcanic activity,1954,37
+723,Volcanic activity,1963,1705
+724,Volcanic activity,1964,4
+725,Volcanic activity,1965,355
+726,Volcanic activity,1966,1088
+727,Volcanic activity,1968,90
+728,Volcanic activity,1975,2
+729,Volcanic activity,1976,41
+730,Volcanic activity,1977,215
+731,Volcanic activity,1979,268
+732,Volcanic activity,1980,90
+733,Volcanic activity,1981,192
+734,Volcanic activity,1982,130
+735,Volcanic activity,1984,37
+736,Volcanic activity,1985,21800
+737,Volcanic activity,1986,1746
+738,Volcanic activity,1988,7
+739,Volcanic activity,1990,33
+740,Volcanic activity,1991,683
+741,Volcanic activity,1992,1
+742,Volcanic activity,1993,99
+743,Volcanic activity,1994,101
+744,Volcanic activity,1996,4
+745,Volcanic activity,1997,53
+746,Volcanic activity,2002,200
+747,Volcanic activity,2004,2
+748,Volcanic activity,2005,3
+749,Volcanic activity,2006,5
+750,Volcanic activity,2007,11
+751,Volcanic activity,2008,16
+752,Volcanic activity,2010,323
+753,Volcanic activity,2011,3
+754,Volcanic activity,2014,102
+755,Wildfire,1911,73
+756,Wildfire,1918,1000
+757,Wildfire,1922,43
+758,Wildfire,1929,60
+759,Wildfire,1939,71
+760,Wildfire,1944,170
+761,Wildfire,1949,80
+762,Wildfire,1956,11
+763,Wildfire,1966,25
+764,Wildfire,1967,62
+765,Wildfire,1968,12
+766,Wildfire,1977,3
+767,Wildfire,1978,2
+768,Wildfire,1981,8
+769,Wildfire,1982,2
+770,Wildfire,1983,106
+771,Wildfire,1984,17
+772,Wildfire,1985,51
+773,Wildfire,1986,20
+774,Wildfire,1987,191
+775,Wildfire,1989,1
+776,Wildfire,1991,90
+777,Wildfire,1992,122
+778,Wildfire,1993,3
+779,Wildfire,1994,84
+780,Wildfire,1995,29
+781,Wildfire,1996,45
+782,Wildfire,1997,266
+783,Wildfire,1998,150
+784,Wildfire,1999,70
+785,Wildfire,2000,47
+786,Wildfire,2001,33
+787,Wildfire,2002,6
+788,Wildfire,2003,47
+789,Wildfire,2004,14
+790,Wildfire,2005,45
+791,Wildfire,2006,13
+792,Wildfire,2007,148
+793,Wildfire,2008,86
+794,Wildfire,2009,190
+795,Wildfire,2010,166
+796,Wildfire,2011,10
+797,Wildfire,2012,21
+798,Wildfire,2013,35
+799,Wildfire,2014,16
+800,Wildfire,2015,67
+801,Wildfire,2016,39
+802,Wildfire,2017,75

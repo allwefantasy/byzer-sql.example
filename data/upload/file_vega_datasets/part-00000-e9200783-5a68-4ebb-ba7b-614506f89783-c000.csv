@@ -1,0 +1,804 @@
+ID,Entity
+0,All natural disasters
+1,All natural disasters
+2,All natural disasters
+3,All natural disasters
+4,All natural disasters
+5,All natural disasters
+6,All natural disasters
+7,All natural disasters
+8,All natural disasters
+9,All natural disasters
+10,All natural disasters
+11,All natural disasters
+12,All natural disasters
+13,All natural disasters
+14,All natural disasters
+15,All natural disasters
+16,All natural disasters
+17,All natural disasters
+18,All natural disasters
+19,All natural disasters
+20,All natural disasters
+21,All natural disasters
+22,All natural disasters
+23,All natural disasters
+24,All natural disasters
+25,All natural disasters
+26,All natural disasters
+27,All natural disasters
+28,All natural disasters
+29,All natural disasters
+30,All natural disasters
+31,All natural disasters
+32,All natural disasters
+33,All natural disasters
+34,All natural disasters
+35,All natural disasters
+36,All natural disasters
+37,All natural disasters
+38,All natural disasters
+39,All natural disasters
+40,All natural disasters
+41,All natural disasters
+42,All natural disasters
+43,All natural disasters
+44,All natural disasters
+45,All natural disasters
+46,All natural disasters
+47,All natural disasters
+48,All natural disasters
+49,All natural disasters
+50,All natural disasters
+51,All natural disasters
+52,All natural disasters
+53,All natural disasters
+54,All natural disasters
+55,All natural disasters
+56,All natural disasters
+57,All natural disasters
+58,All natural disasters
+59,All natural disasters
+60,All natural disasters
+61,All natural disasters
+62,All natural disasters
+63,All natural disasters
+64,All natural disasters
+65,All natural disasters
+66,All natural disasters
+67,All natural disasters
+68,All natural disasters
+69,All natural disasters
+70,All natural disasters
+71,All natural disasters
+72,All natural disasters
+73,All natural disasters
+74,All natural disasters
+75,All natural disasters
+76,All natural disasters
+77,All natural disasters
+78,All natural disasters
+79,All natural disasters
+80,All natural disasters
+81,All natural disasters
+82,All natural disasters
+83,All natural disasters
+84,All natural disasters
+85,All natural disasters
+86,All natural disasters
+87,All natural disasters
+88,All natural disasters
+89,All natural disasters
+90,All natural disasters
+91,All natural disasters
+92,All natural disasters
+93,All natural disasters
+94,All natural disasters
+95,All natural disasters
+96,All natural disasters
+97,All natural disasters
+98,All natural disasters
+99,All natural disasters
+100,All natural disasters
+101,All natural disasters
+102,All natural disasters
+103,All natural disasters
+104,All natural disasters
+105,All natural disasters
+106,All natural disasters
+107,All natural disasters
+108,All natural disasters
+109,All natural disasters
+110,All natural disasters
+111,All natural disasters
+112,All natural disasters
+113,All natural disasters
+114,All natural disasters
+115,All natural disasters
+116,All natural disasters
+117,Drought
+118,Drought
+119,Drought
+120,Drought
+121,Drought
+122,Drought
+123,Drought
+124,Drought
+125,Drought
+126,Drought
+127,Drought
+128,Drought
+129,Drought
+130,Drought
+131,Drought
+132,Drought
+133,Drought
+134,Drought
+135,Drought
+136,Drought
+137,Drought
+138,Drought
+139,Drought
+140,Drought
+141,Drought
+142,Drought
+143,Drought
+144,Drought
+145,Drought
+146,Drought
+147,Drought
+148,Drought
+149,Drought
+150,Drought
+151,Drought
+152,Drought
+153,Drought
+154,Drought
+155,Drought
+156,Earthquake
+157,Earthquake
+158,Earthquake
+159,Earthquake
+160,Earthquake
+161,Earthquake
+162,Earthquake
+163,Earthquake
+164,Earthquake
+165,Earthquake
+166,Earthquake
+167,Earthquake
+168,Earthquake
+169,Earthquake
+170,Earthquake
+171,Earthquake
+172,Earthquake
+173,Earthquake
+174,Earthquake
+175,Earthquake
+176,Earthquake
+177,Earthquake
+178,Earthquake
+179,Earthquake
+180,Earthquake
+181,Earthquake
+182,Earthquake
+183,Earthquake
+184,Earthquake
+185,Earthquake
+186,Earthquake
+187,Earthquake
+188,Earthquake
+189,Earthquake
+190,Earthquake
+191,Earthquake
+192,Earthquake
+193,Earthquake
+194,Earthquake
+195,Earthquake
+196,Earthquake
+197,Earthquake
+198,Earthquake
+199,Earthquake
+200,Earthquake
+201,Earthquake
+202,Earthquake
+203,Earthquake
+204,Earthquake
+205,Earthquake
+206,Earthquake
+207,Earthquake
+208,Earthquake
+209,Earthquake
+210,Earthquake
+211,Earthquake
+212,Earthquake
+213,Earthquake
+214,Earthquake
+215,Earthquake
+216,Earthquake
+217,Earthquake
+218,Earthquake
+219,Earthquake
+220,Earthquake
+221,Earthquake
+222,Earthquake
+223,Earthquake
+224,Earthquake
+225,Earthquake
+226,Earthquake
+227,Earthquake
+228,Earthquake
+229,Earthquake
+230,Earthquake
+231,Earthquake
+232,Earthquake
+233,Earthquake
+234,Earthquake
+235,Earthquake
+236,Earthquake
+237,Earthquake
+238,Earthquake
+239,Earthquake
+240,Earthquake
+241,Earthquake
+242,Earthquake
+243,Earthquake
+244,Earthquake
+245,Earthquake
+246,Earthquake
+247,Earthquake
+248,Earthquake
+249,Earthquake
+250,Earthquake
+251,Earthquake
+252,Earthquake
+253,Earthquake
+254,Earthquake
+255,Earthquake
+256,Earthquake
+257,Earthquake
+258,Earthquake
+259,Earthquake
+260,Earthquake
+261,Earthquake
+262,Earthquake
+263,Earthquake
+264,Earthquake
+265,Earthquake
+266,Earthquake
+267,Epidemic
+268,Epidemic
+269,Epidemic
+270,Epidemic
+271,Epidemic
+272,Epidemic
+273,Epidemic
+274,Epidemic
+275,Epidemic
+276,Epidemic
+277,Epidemic
+278,Epidemic
+279,Epidemic
+280,Epidemic
+281,Epidemic
+282,Epidemic
+283,Epidemic
+284,Epidemic
+285,Epidemic
+286,Epidemic
+287,Epidemic
+288,Epidemic
+289,Epidemic
+290,Epidemic
+291,Epidemic
+292,Epidemic
+293,Epidemic
+294,Epidemic
+295,Epidemic
+296,Epidemic
+297,Epidemic
+298,Epidemic
+299,Epidemic
+300,Epidemic
+301,Epidemic
+302,Epidemic
+303,Epidemic
+304,Epidemic
+305,Epidemic
+306,Epidemic
+307,Epidemic
+308,Epidemic
+309,Epidemic
+310,Epidemic
+311,Epidemic
+312,Epidemic
+313,Epidemic
+314,Epidemic
+315,Epidemic
+316,Epidemic
+317,Epidemic
+318,Epidemic
+319,Epidemic
+320,Epidemic
+321,Epidemic
+322,Epidemic
+323,Epidemic
+324,Epidemic
+325,Epidemic
+326,Epidemic
+327,Epidemic
+328,Epidemic
+329,Epidemic
+330,Epidemic
+331,Epidemic
+332,Epidemic
+333,Epidemic
+334,Epidemic
+335,Epidemic
+336,Extreme temperature
+337,Extreme temperature
+338,Extreme temperature
+339,Extreme temperature
+340,Extreme temperature
+341,Extreme temperature
+342,Extreme temperature
+343,Extreme temperature
+344,Extreme temperature
+345,Extreme temperature
+346,Extreme temperature
+347,Extreme temperature
+348,Extreme temperature
+349,Extreme temperature
+350,Extreme temperature
+351,Extreme temperature
+352,Extreme temperature
+353,Extreme temperature
+354,Extreme temperature
+355,Extreme temperature
+356,Extreme temperature
+357,Extreme temperature
+358,Extreme temperature
+359,Extreme temperature
+360,Extreme temperature
+361,Extreme temperature
+362,Extreme temperature
+363,Extreme temperature
+364,Extreme temperature
+365,Extreme temperature
+366,Extreme temperature
+367,Extreme temperature
+368,Extreme temperature
+369,Extreme temperature
+370,Extreme temperature
+371,Extreme temperature
+372,Extreme temperature
+373,Extreme temperature
+374,Extreme temperature
+375,Extreme temperature
+376,Extreme temperature
+377,Extreme temperature
+378,Extreme temperature
+379,Extreme temperature
+380,Extreme temperature
+381,Extreme temperature
+382,Extreme temperature
+383,Extreme temperature
+384,Extreme temperature
+385,Extreme temperature
+386,Extreme temperature
+387,Extreme temperature
+388,Extreme temperature
+389,Extreme temperature
+390,Extreme temperature
+391,Extreme weather
+392,Extreme weather
+393,Extreme weather
+394,Extreme weather
+395,Extreme weather
+396,Extreme weather
+397,Extreme weather
+398,Extreme weather
+399,Extreme weather
+400,Extreme weather
+401,Extreme weather
+402,Extreme weather
+403,Extreme weather
+404,Extreme weather
+405,Extreme weather
+406,Extreme weather
+407,Extreme weather
+408,Extreme weather
+409,Extreme weather
+410,Extreme weather
+411,Extreme weather
+412,Extreme weather
+413,Extreme weather
+414,Extreme weather
+415,Extreme weather
+416,Extreme weather
+417,Extreme weather
+418,Extreme weather
+419,Extreme weather
+420,Extreme weather
+421,Extreme weather
+422,Extreme weather
+423,Extreme weather
+424,Extreme weather
+425,Extreme weather
+426,Extreme weather
+427,Extreme weather
+428,Extreme weather
+429,Extreme weather
+430,Extreme weather
+431,Extreme weather
+432,Extreme weather
+433,Extreme weather
+434,Extreme weather
+435,Extreme weather
+436,Extreme weather
+437,Extreme weather
+438,Extreme weather
+439,Extreme weather
+440,Extreme weather
+441,Extreme weather
+442,Extreme weather
+443,Extreme weather
+444,Extreme weather
+445,Extreme weather
+446,Extreme weather
+447,Extreme weather
+448,Extreme weather
+449,Extreme weather
+450,Extreme weather
+451,Extreme weather
+452,Extreme weather
+453,Extreme weather
+454,Extreme weather
+455,Extreme weather
+456,Extreme weather
+457,Extreme weather
+458,Extreme weather
+459,Extreme weather
+460,Extreme weather
+461,Extreme weather
+462,Extreme weather
+463,Extreme weather
+464,Extreme weather
+465,Extreme weather
+466,Extreme weather
+467,Extreme weather
+468,Extreme weather
+469,Extreme weather
+470,Extreme weather
+471,Extreme weather
+472,Extreme weather
+473,Extreme weather
+474,Extreme weather
+475,Extreme weather
+476,Extreme weather
+477,Extreme weather
+478,Extreme weather
+479,Extreme weather
+480,Extreme weather
+481,Extreme weather
+482,Extreme weather
+483,Extreme weather
+484,Extreme weather
+485,Extreme weather
+486,Extreme weather
+487,Extreme weather
+488,Extreme weather
+489,Extreme weather
+490,Extreme weather
+491,Extreme weather
+492,Extreme weather
+493,Extreme weather
+494,Extreme weather
+495,Extreme weather
+496,Extreme weather
+497,Extreme weather
+498,Extreme weather
+499,Extreme weather
+500,Extreme weather
+501,Extreme weather
+502,Flood
+503,Flood
+504,Flood
+505,Flood
+506,Flood
+507,Flood
+508,Flood
+509,Flood
+510,Flood
+511,Flood
+512,Flood
+513,Flood
+514,Flood
+515,Flood
+516,Flood
+517,Flood
+518,Flood
+519,Flood
+520,Flood
+521,Flood
+522,Flood
+523,Flood
+524,Flood
+525,Flood
+526,Flood
+527,Flood
+528,Flood
+529,Flood
+530,Flood
+531,Flood
+532,Flood
+533,Flood
+534,Flood
+535,Flood
+536,Flood
+537,Flood
+538,Flood
+539,Flood
+540,Flood
+541,Flood
+542,Flood
+543,Flood
+544,Flood
+545,Flood
+546,Flood
+547,Flood
+548,Flood
+549,Flood
+550,Flood
+551,Flood
+552,Flood
+553,Flood
+554,Flood
+555,Flood
+556,Flood
+557,Flood
+558,Flood
+559,Flood
+560,Flood
+561,Flood
+562,Flood
+563,Flood
+564,Flood
+565,Flood
+566,Flood
+567,Flood
+568,Flood
+569,Flood
+570,Flood
+571,Flood
+572,Flood
+573,Flood
+574,Flood
+575,Flood
+576,Flood
+577,Flood
+578,Flood
+579,Flood
+580,Flood
+581,Flood
+582,Flood
+583,Flood
+584,Flood
+585,Flood
+586,Flood
+587,Flood
+588,Flood
+589,Flood
+590,Flood
+591,Landslide
+592,Landslide
+593,Landslide
+594,Landslide
+595,Landslide
+596,Landslide
+597,Landslide
+598,Landslide
+599,Landslide
+600,Landslide
+601,Landslide
+602,Landslide
+603,Landslide
+604,Landslide
+605,Landslide
+606,Landslide
+607,Landslide
+608,Landslide
+609,Landslide
+610,Landslide
+611,Landslide
+612,Landslide
+613,Landslide
+614,Landslide
+615,Landslide
+616,Landslide
+617,Landslide
+618,Landslide
+619,Landslide
+620,Landslide
+621,Landslide
+622,Landslide
+623,Landslide
+624,Landslide
+625,Landslide
+626,Landslide
+627,Landslide
+628,Landslide
+629,Landslide
+630,Landslide
+631,Landslide
+632,Landslide
+633,Landslide
+634,Landslide
+635,Landslide
+636,Landslide
+637,Landslide
+638,Landslide
+639,Landslide
+640,Landslide
+641,Landslide
+642,Landslide
+643,Landslide
+644,Landslide
+645,Landslide
+646,Landslide
+647,Landslide
+648,Landslide
+649,Landslide
+650,Landslide
+651,Landslide
+652,Landslide
+653,Landslide
+654,Landslide
+655,Landslide
+656,Landslide
+657,Landslide
+658,Landslide
+659,Landslide
+660,Landslide
+661,Landslide
+662,Landslide
+663,Landslide
+664,Landslide
+665,Landslide
+666,Landslide
+667,Landslide
+668,Landslide
+669,Landslide
+670,Mass movement (dry)
+671,Mass movement (dry)
+672,Mass movement (dry)
+673,Mass movement (dry)
+674,Mass movement (dry)
+675,Mass movement (dry)
+676,Mass movement (dry)
+677,Mass movement (dry)
+678,Mass movement (dry)
+679,Mass movement (dry)
+680,Mass movement (dry)
+681,Mass movement (dry)
+682,Mass movement (dry)
+683,Mass movement (dry)
+684,Mass movement (dry)
+685,Mass movement (dry)
+686,Mass movement (dry)
+687,Mass movement (dry)
+688,Mass movement (dry)
+689,Mass movement (dry)
+690,Mass movement (dry)
+691,Mass movement (dry)
+692,Mass movement (dry)
+693,Mass movement (dry)
+694,Mass movement (dry)
+695,Mass movement (dry)
+696,Mass movement (dry)
+697,Mass movement (dry)
+698,Mass movement (dry)
+699,Mass movement (dry)
+700,Mass movement (dry)
+701,Mass movement (dry)
+702,Volcanic activity
+703,Volcanic activity
+704,Volcanic activity
+705,Volcanic activity
+706,Volcanic activity
+707,Volcanic activity
+708,Volcanic activity
+709,Volcanic activity
+710,Volcanic activity
+711,Volcanic activity
+712,Volcanic activity
+713,Volcanic activity
+714,Volcanic activity
+715,Volcanic activity
+716,Volcanic activity
+717,Volcanic activity
+718,Volcanic activity
+719,Volcanic activity
+720,Volcanic activity
+721,Volcanic activity
+722,Volcanic activity
+723,Volcanic activity
+724,Volcanic activity
+725,Volcanic activity
+726,Volcanic activity
+727,Volcanic activity
+728,Volcanic activity
+729,Volcanic activity
+730,Volcanic activity
+731,Volcanic activity
+732,Volcanic activity
+733,Volcanic activity
+734,Volcanic activity
+735,Volcanic activity
+736,Volcanic activity
+737,Volcanic activity
+738,Volcanic activity
+739,Volcanic activity
+740,Volcanic activity
+741,Volcanic activity
+742,Volcanic activity
+743,Volcanic activity
+744,Volcanic activity
+745,Volcanic activity
+746,Volcanic activity
+747,Volcanic activity
+748,Volcanic activity
+749,Volcanic activity
+750,Volcanic activity
+751,Volcanic activity
+752,Volcanic activity
+753,Volcanic activity
+754,Volcanic activity
+755,Wildfire
+756,Wildfire
+757,Wildfire
+758,Wildfire
+759,Wildfire
+760,Wildfire
+761,Wildfire
+762,Wildfire
+763,Wildfire
+764,Wildfire
+765,Wildfire
+766,Wildfire
+767,Wildfire
+768,Wildfire
+769,Wildfire
+770,Wildfire
+771,Wildfire
+772,Wildfire
+773,Wildfire
+774,Wildfire
+775,Wildfire
+776,Wildfire
+777,Wildfire
+778,Wildfire
+779,Wildfire
+780,Wildfire
+781,Wildfire
+782,Wildfire
+783,Wildfire
+784,Wildfire
+785,Wildfire
+786,Wildfire
+787,Wildfire
+788,Wildfire
+789,Wildfire
+790,Wildfire
+791,Wildfire
+792,Wildfire
+793,Wildfire
+794,Wildfire
+795,Wildfire
+796,Wildfire
+797,Wildfire
+798,Wildfire
+799,Wildfire
+800,Wildfire
+801,Wildfire
+802,Wildfire

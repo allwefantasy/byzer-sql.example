@@ -1,0 +1,99 @@
+{
+  "id" : "80",
+  "name" : "llm_sql",
+  "user" : "william",
+  "cell_list" : [ {
+    "id" : "520",
+    "content" : "--%markdown## Byzer Notebook 数据分析和可视化以及大模型融合使用\n",
+    "job_id" : null
+  }, {
+    "id" : "521",
+    "content" : "--连接一个业务数据库\nconnect jdbc where\ndriver=\"com.mysql.jdbc.Driver\"\nand url=\"jdbc:mysql://127.0.0.1:3306/wow?useSSL=false&haracterEncoding=utf8&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false\"\nand user=\"root\"\nand password=\"xxxx\"\nas mysql_instance;\n",
+    "job_id" : "16f5b311-7d50-4451-a9f4-88b8773f16b0"
+  }, {
+    "id" : "522",
+    "content" : "-- 加载该数据库数据\nload jdbc.`mysql_instance.vega_datasets` \nas mysql_vega_datasets;",
+    "job_id" : "f3bf9a4d-a7db-4ec3-ba91-b3293a6b361f"
+  }, {
+    "id" : "523",
+    "content" : "-- 如果你数据库里没有信息，可以用下面的文件替代\nload csv.`/tmp/upload/part-00000-466cd646-08d8-4e2c-97ae-44b663b831da-c000.csv` \nwhere inferSchema=\"true\" and header=\"true\"\nas file_vega_datasets;\n",
+    "job_id" : null
+  }, {
+    "id" : "524",
+    "content" : "-- 加载一个 csv 数据\nload csv.`/tmp/upload/part-00000-e9200783-5a68-4ebb-ba7b-614506f89783-c000.csv` \nwhere inferSchema=\"true\" and header=\"true\"\nas file_vega_datasets;\n",
+    "job_id" : "27c7d1d0-0617-4ff1-8654-a7cf129b10f3"
+  }, {
+    "id" : "545",
+    "content" : "--%markdown## 部署一个大语言模型，这里使用 gpt 3.5. 你也可以替换成 deepseek v2 等\n\n```bash\nbyzerllm deploy --pretrained_model_type saas/openai \\\n--cpus_per_worker 0.001 \\\n--gpus_per_worker 0 \\\n--worker_concurrency 10 \\\n--num_workers 1 \\\n--infer_params saas.api_key=${MODEL_OPENAI_TOKEN} saas.model=gpt-3.5-turbo-0125 \\\n--model gpt3_5_chat\n```\n\nDeepSeekV2 部署脚本：\n\n```bash\nbyzerllm deploy --pretrained_model_type saas/openai \\\n--cpus_per_worker 0.001 \\\n--gpus_per_worker 0 \\\n--worker_concurrency 30 \\\n--num_workers 1 \\\n--infer_params saas.base_url=\"https://api.deepseek.com/v1\" saas.api_key=${MODEL_DEEPSEEK_TOKEN} saas.model=deepseek-chat \\\n--model deepseek_chat\n```\n",
+    "job_id" : null
+  }, {
+    "id" : "525",
+    "content" : "-- 连接一个已经部署好的模型\n-- 这里的 udfName 对应的事部署的 --model参数名。\n\n!byzerllm setup single;\n\nrun command as LLM.`` where \naction=\"infer\"\nand reconnect=\"true\"\nand pretrainedModelType=\"saas/*\"\nand udfName=\"gpt3_5_chat\";",
+    "job_id" : "c22caa61-448d-44c4-827d-e1cb22d1133d"
+  }, {
+    "id" : "526",
+    "content" : "!desc mysql_vega_datasets json;",
+    "job_id" : "99407842-34d8-4555-ac01-0568fa7a4502"
+  }, {
+    "id" : "527",
+    "content" : "!desc file_vega_datasets json;",
+    "job_id" : "e8914712-dc7d-44e2-9722-b707fe41de71"
+  }, {
+    "id" : "528",
+    "content" : "--%chat\n--%model=gpt3_5_chat\n--%output=q1\n\n我有两张表，对应的schema如下：\n\nmysql_vega_datasets：\n\n\n{\"type\":\"struct\",\"fields\":[{\"name\":\"ID\",\"type\":\"long\",\"nullable\":true,\"metadata\":{\"scale\":0}},{\"name\":\"Deaths\",\"type\":\"long\",\"nullable\":true,\"metadata\":{\"scale\":0}},{\"name\":\"Year\",\"type\":\"long\",\"nullable\":true,\"metadata\":{\"scale\":0}}]}\n\nfile_vega_datasets：\n\n{\"type\":\"struct\",\"fields\":[{\"name\":\"ID\",\"type\":\"integer\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Entity\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}}]}\n\n写一个 Spark SQL 语句，进行 join 关联，以左表为准,不要用 *， 罗列出所有字段\n",
+    "job_id" : null
+  }, {
+    "id" : "529",
+    "content" : "SELECT mysql_vega_datasets.ID, mysql_vega_datasets.Deaths, mysql_vega_datasets.Year, file_vega_datasets.Entity\nFROM mysql_vega_datasets\nLEFT JOIN file_vega_datasets\nON mysql_vega_datasets.ID = file_vega_datasets.ID\nas whole_datasets;",
+    "job_id" : "14d26292-64dc-4042-948c-8be53c072d9a"
+  }, {
+    "id" : "543",
+    "content" : "-- 让大模型根据预览数据进行一些解读\n\n--随机取3%的数据\nselect * from whole_datasets where random() > 0.97 as temp_data;\n\n-- 把数据合成一个json文本\nselect to_json(collect_list(struct(ID,Deaths,Year,Entity))) as value from temp_data as preivew_data;\n\n\nselect \ngpt3_5_chat(llm_param(\nmap(\n\n   \"query\",llm_prompt('我有一段json文本如下:\n```json\n{0}   \n```\n能简单对这个数据做个解读么？\n',array(value))\n              \n)))\n\nas response from preivew_data as table1;\n\nselect llm_result(response) as content,'markdown' as mime from table1 as output;\n\n\n",
+    "job_id" : "6b935527-76bc-47b1-a7d6-b3bc885f8615"
+  }, {
+    "id" : "530",
+    "content" : "select d1.*,d2.Entity\nfrom mysql_vega_datasets d1\nleft join file_vega_datasets d2\non d1.ID = d2.ID\nas whole_datasets;",
+    "job_id" : null
+  }, {
+    "id" : "531",
+    "content" : "select * from whole_datasets where whole_datasets.Year > 1990\nas final_datasets;",
+    "job_id" : null
+  }, {
+    "id" : "532",
+    "content" : "!plugin app add - \"byzer-yaml-visualization-3.3\";",
+    "job_id" : null
+  }, {
+    "id" : "533",
+    "content" : "--%visualize\n--%input=final_datasets\n\nruntime: \n   env: \n   cache: false\ncontrol:\n   ignoreSort: True     \nfig:\n   bar:       \n      x: Deaths\n      y: Entity   \n      animation_frame: Year    \n      orientation: h\n      range_x:\n         vv_type: code\n         vv_value: \"[0, df.Deaths.max()]\"\n      color: Entity \n      title: \"Evolution of Natural Disasters\" \n      labels:\n         Entity: \"自然灾害\"  ",
+    "job_id" : null
+  }, {
+    "id" : "544",
+    "content" : "--%markdown## 部署一个多模态模型，这里用  yi-vision\n\n```bash\nbyzerllm deploy  --pretrained_model_type saas/openai  \\\n--cpus_per_worker 0.001 \\\n--gpus_per_worker 0 \\\n--num_workers 1 \\\n--worker_concurrency 10 \\\n--infer_params saas.api_key=${MODEL_YI_TOKEN} saas.model=yi-vision saas.base_url=https://api.lingyiwanwu.com/v1 \\\n--model yi_vl_chat\n```",
+    "job_id" : null
+  }, {
+    "id" : "534",
+    "content" : "-- 连接一个已经部署好的模型\n\n!byzerllm setup single;\n\nrun command as LLM.`` where \naction=\"infer\"\nand reconnect=\"true\"\nand pretrainedModelType=\"saas/*\"\nand udfName=\"yi_vl_chat\";",
+    "job_id" : "879994e6-aa1f-4aad-b369-11aec08acac1"
+  }, {
+    "id" : "536",
+    "content" : "load binaryFile.`/tmp/upload/images` as images;\n!desc images;",
+    "job_id" : "4d54825f-4028-460e-859c-08daab47a2c4"
+  }, {
+    "id" : "537",
+    "content" : "--%chat\n--%model=gpt3_5_chat\n--%output=q1\n\nspark SQL 中 如何把 array 转化为 json, 如何把二进制转化为 base64",
+    "job_id" : "5db65e6e-a7d7-46ba-a118-a976b0f657ee"
+  }, {
+    "id" : "542",
+    "content" : "register ScriptUDF.`` as my_base64 where\nlang=\"scala\"\nand udfType=\"udf\"\nand code='''\ndef apply(a:Array[Byte])={\n   import org.apache.commons.codec.binary.Base64;\n   new String(Base64.encodeBase64(a))\n}\n''';",
+    "job_id" : null
+  }, {
+    "id" : "535",
+    "content" : "select \nyi_vl_chat(llm_param(\nmap(\n\n   \"query\",to_json(array(map(\n    \"image\",my_base64(content),\n    \"text\",\"详细描述图片里都有啥\"\n   )))\n              \n)))\n\nas response from images as table1;\n\nselect llm_result(response) as result from table1 as output;\n\n",
+    "job_id" : "08a9ef79-3d19-4071-ad7d-4cc64e17056b"
+  }, {
+    "id" : "539",
+    "content" : "\n\n\nselect \nmy_base64(content) , base64(cast(content as string))\nas response from images as table1;\n\n\n\n\n",
+    "job_id" : "1cc6c4b2-7327-4fea-8f89-22a4dd6a0490"
+  } ],
+  "is_demo" : null
+}
